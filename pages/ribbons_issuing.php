@@ -1,0 +1,709 @@
+<?php
+require_once '../includes/db.php';
+require_login();
+
+$page_title = "Ribbon Issuing - SLPA System";
+$additional_css = ['../assets/css/ribbons-issuing.css', '../assets/css/forms.css', '../assets/css/components.css'];
+$additional_js = ['../assets/js/ribbons-issuing.js?v=' . time()];
+
+// Handle form submissions
+$message = '';
+$message_type = '';
+
+// Check for session messages first
+if (isset($_SESSION['message'])) {
+    $message = $_SESSION['message'];
+    $message_type = $_SESSION['message_type'];
+    unset($_SESSION['message'], $_SESSION['message_type']);
+}
+
+// Issue new ribbon
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action']) && $_POST['action'] == 'issue') {
+    $ribbon_id = (int)$_POST['ribbon_id'];
+    $ribbon_model = sanitize_input($_POST['ribbon_model']);
+    $code = sanitize_input($_POST['code'] ?? '');
+    $lot = sanitize_input($_POST['lot'] ?? '');
+    $stock = sanitize_input($_POST['stock']);
+    $division = sanitize_input($_POST['division']);
+    $section = sanitize_input($_POST['section']);
+    $request_officer = sanitize_input($_POST['request_officer'] ?? '');
+    $receiver_name = sanitize_input($_POST['receiver_name'] ?? '');
+    $receiver_emp_no = sanitize_input($_POST['receiver_emp_no'] ?? '');
+    $quantity = (int)$_POST['quantity'];
+    $issue_date = sanitize_input($_POST['issue_date'] ?? date('Y-m-d'));
+    $remarks = sanitize_input($_POST['remarks'] ?? '');
+    
+    // Auto-assign LOT if empty
+    if (empty($lot)) {
+        $lot_result = $conn->query("SELECT lot FROM ribbons_receiving WHERE ribbon_id = $ribbon_id AND lot IS NOT NULL AND lot != '' LIMIT 1");
+        if ($lot_result && $lot_row = $lot_result->fetch_assoc()) {
+            $lot = $lot_row['lot'];
+        }
+    }
+    
+    // Validate required fields
+    if (empty($ribbon_id) || empty($stock) || empty($division) || empty($section) || empty($quantity) || empty($issue_date)) {
+        $_SESSION['message'] = 'Please fill in all required fields!';
+        $_SESSION['message_type'] = 'error';
+    } else {
+        // Check available stock before issuing from ribbons_master
+        $stock_check_query = $conn->query("SELECT jct_stock, uct_stock FROM ribbons_master WHERE ribbon_id = $ribbon_id LIMIT 1");
+        if ($stock_check_query && $stock_row = $stock_check_query->fetch_assoc()) {
+            $available_stock = ($stock == 'JCT') ? $stock_row['jct_stock'] : $stock_row['uct_stock'];
+            
+            if ($quantity > $available_stock) {
+                $_SESSION['message'] = "Insufficient stock! Available: $available_stock units in $stock";
+                $_SESSION['message_type'] = 'error';
+                header('Location: ' . $_SERVER['PHP_SELF']);
+                exit;
+            }
+        }
+        try {
+            $stmt = $conn->prepare("INSERT INTO ribbons_issuing (ribbon_id, ribbon_model, code, lot, stock, division, section, request_officer, receiver_name, receiver_emp_no, quantity, issue_date, remarks) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt->bind_param("issssssssssss", $ribbon_id, $ribbon_model, $code, $lot, $stock, $division, $section, $request_officer, $receiver_name, $receiver_emp_no, $quantity, $issue_date, $remarks);
+            
+            if ($stmt->execute()) {
+                $stock_field = ($stock == 'JCT') ? 'jct_stock' : 'uct_stock';
+                $update_stmt = $conn->prepare("UPDATE ribbons_master SET $stock_field = $stock_field - ? WHERE ribbon_id = ? AND $stock_field >= ?");
+                $update_stmt->bind_param("iii", $quantity, $ribbon_id, $quantity);
+                
+                if ($update_stmt->execute()) {
+                    $_SESSION['message'] = 'Ribbon issued successfully!';
+                    $_SESSION['message_type'] = 'success';
+                } else {
+                    $_SESSION['message'] = 'Ribbon issued but stock update failed!';
+                    $_SESSION['message_type'] = 'warning';
+                }
+                $update_stmt->close();
+            } else {
+                $_SESSION['message'] = 'Error issuing ribbon: ' . $conn->error;
+                $_SESSION['message_type'] = 'error';
+            }
+            $stmt->close();
+        } catch (Exception $e) {
+            $_SESSION['message'] = 'Database error: ' . $e->getMessage();
+            $_SESSION['message_type'] = 'error';
+        }
+    }
+    
+    header('Location: ' . $_SERVER['PHP_SELF']);
+    exit;
+}
+
+// Handle edit
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action']) && $_POST['action'] == 'edit') {
+    $issue_id = (int)$_POST['issue_id'];
+    $ribbon_id = (int)$_POST['ribbon_id'];
+    $ribbon_model = sanitize_input($_POST['ribbon_model']);
+    $code = sanitize_input($_POST['code'] ?? '');
+    $lot = sanitize_input($_POST['lot'] ?? '');
+    $stock = sanitize_input($_POST['stock']);
+    $division = sanitize_input($_POST['division']);
+    $section = sanitize_input($_POST['section']);
+    $request_officer = sanitize_input($_POST['request_officer'] ?? '');
+    $receiver_name = sanitize_input($_POST['receiver_name'] ?? '');
+    $receiver_emp_no = sanitize_input($_POST['receiver_emp_no'] ?? '');
+    $quantity = (int)$_POST['quantity'];
+    $issue_date = sanitize_input($_POST['issue_date'] ?? date('Y-m-d'));
+    $remarks = sanitize_input($_POST['remarks'] ?? '');
+    
+    // Auto-assign LOT if empty
+    if (empty($lot)) {
+        $lot_result = $conn->query("SELECT lot FROM ribbons_receiving WHERE ribbon_id = $ribbon_id AND lot IS NOT NULL AND lot != '' LIMIT 1");
+        if ($lot_result && $lot_row = $lot_result->fetch_assoc()) {
+            $lot = $lot_row['lot'];
+        }
+    }
+    
+    if (empty($issue_id) || empty($ribbon_id) || empty($stock) || empty($division) || empty($section) || empty($quantity) || empty($issue_date)) {
+        $_SESSION['message'] = 'Please fill in all required fields!';
+        $_SESSION['message_type'] = 'error';
+    } else {
+        try {
+            $stmt = $conn->prepare("UPDATE ribbons_issuing SET ribbon_id=?, ribbon_model=?, code=?, lot=?, stock=?, division=?, section=?, request_officer=?, receiver_name=?, receiver_emp_no=?, quantity=?, issue_date=?, remarks=? WHERE issue_id=?");
+            $stmt->bind_param("issssssssssssi", $ribbon_id, $ribbon_model, $code, $lot, $stock, $division, $section, $request_officer, $receiver_name, $receiver_emp_no, $quantity, $issue_date, $remarks, $issue_id);
+            
+            if ($stmt->execute()) {
+                $_SESSION['message'] = 'Ribbon issue record updated successfully!';
+                $_SESSION['message_type'] = 'success';
+            } else {
+                $_SESSION['message'] = 'Error updating record: ' . $conn->error;
+                $_SESSION['message_type'] = 'error';
+            }
+            $stmt->close();
+        } catch (Exception $e) {
+            $_SESSION['message'] = 'Database error: ' . $e->getMessage();
+            $_SESSION['message_type'] = 'error';
+        }
+    }
+    
+    header('Location: ' . $_SERVER['PHP_SELF']);
+    exit;
+}
+
+// Handle delete
+if (isset($_GET['delete']) && !empty($_GET['delete'])) {
+    $issue_id = (int)$_GET['delete'];
+    
+    try {
+        $stmt = $conn->prepare("DELETE FROM ribbons_issuing WHERE issue_id = ?");
+        $stmt->bind_param("i", $issue_id);
+        
+        if ($stmt->execute()) {
+            $_SESSION['message'] = 'Ribbon issue record deleted successfully!';
+            $_SESSION['message_type'] = 'success';
+        } else {
+            $_SESSION['message'] = 'Error deleting record: ' . $conn->error;
+            $_SESSION['message_type'] = 'error';
+        }
+        $stmt->close();
+    } catch (Exception $e) {
+        $_SESSION['message'] = 'Database error: ' . $e->getMessage();
+        $_SESSION['message_type'] = 'error';
+    }
+    
+    header('Location: ' . $_SERVER['PHP_SELF']);
+    exit;
+}
+
+// Get data for display
+$issues = [];
+$ribbons = [];
+
+// Fetch issued ribbons
+try {
+    $result = $conn->query("SELECT 
+        ri.*
+    FROM ribbons_issuing ri
+    ORDER BY ri.issue_date DESC, ri.issue_id DESC");
+    if ($result) {
+        while ($row = $result->fetch_assoc()) {
+            $issues[] = $row;
+        }
+    }
+} catch (Exception $e) {
+    $_SESSION['message'] = 'Database error: ' . $e->getMessage();
+    $_SESSION['message_type'] = 'error';
+}
+
+// Get ribbons from receiving table with current stock from master
+try {
+    $result = $conn->query("SELECT 
+        rr.receive_id,
+        rr.ribbon_id,
+        rm.ribbon_model,
+        rr.lot,
+        rm.jct_stock,
+        rm.uct_stock
+    FROM ribbons_receiving rr
+    INNER JOIN ribbons_master rm ON rr.ribbon_id = rm.ribbon_id
+    WHERE rr.lot IS NOT NULL AND rr.lot != ''
+    ORDER BY rm.ribbon_model, rr.lot");
+    
+    if ($result) {
+        while ($row = $result->fetch_assoc()) {
+            $ribbons[] = $row;
+        }
+    }
+} catch (Exception $e) {
+    $_SESSION['message'] = 'Database error: ' . $e->getMessage();
+    $_SESSION['message_type'] = 'error';
+}
+
+// Calculate statistics
+$total_issues = count($issues);
+$recent_issues = 0;
+$low_stock_items = 0;
+
+foreach ($issues as $issue) {
+    if (strtotime($issue['issue_date']) >= strtotime('-30 days')) {
+        $recent_issues++;
+    }
+}
+
+// For low stock check
+try {
+    $stock_check = $conn->query("SELECT ribbon_id, jct_stock, uct_stock, reorder_level 
+                                  FROM ribbons_master 
+                                  WHERE (jct_stock + uct_stock) <= reorder_level");
+    if ($stock_check) {
+        $low_stock_items = $stock_check->num_rows;
+    }
+} catch (Exception $e) {
+    $low_stock_items = 0;
+}
+include '../includes/header.php';
+?>
+
+<div class="page-container">
+    <div class="page-header">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>
+                    <i class="fas fa-share-square"></i>
+                    Ribbon Issuing Management
+                </h1>
+                <p>Track and manage ribbon distributions across departments</p>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-primary" onclick="openModal('issueRibbonModal')">
+                    <i class="fas fa-plus"></i>
+                    Issue New Ribbon
+                </button>
+                <button class="btn btn-secondary" onclick="window.location.href='ribbons_master.php'">
+                    <i class="fas fa-box"></i>
+                    Ribbons Master
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Display Messages -->
+    <?php if (isset($_SESSION['message'])): ?>
+        <div class="alert alert-<?php echo $_SESSION['message_type']; ?>">
+            <i class="fas fa-<?php echo $_SESSION['message_type'] == 'success' ? 'check-circle' : 'exclamation-triangle'; ?>"></i>
+            <?php echo $_SESSION['message']; ?>
+        </div>
+        <?php 
+        unset($_SESSION['message']);
+        unset($_SESSION['message_type']);
+        ?>
+    <?php endif; ?>
+
+    <!-- Statistics Cards -->
+    <div class="stats-grid">
+        <div class="stat-card primary">
+            <div class="stat-icon">
+                <i class="fas fa-clipboard-list"></i>
+            </div>
+            <div class="stat-value"><?php echo $total_issues; ?></div>
+            <div class="stat-label">Total Issues</div>
+        </div>
+        
+        <div class="stat-card success">
+            <div class="stat-icon">
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="stat-value"><?php echo $recent_issues; ?></div>
+            <div class="stat-label">This Month</div>
+        </div>
+        
+        <div class="stat-card warning">
+            <div class="stat-icon">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <div class="stat-value"><?php echo $low_stock_items; ?></div>
+            <div class="stat-label">Low Stock Items</div>
+        </div>
+        
+        <div class="stat-card danger">
+            <div class="stat-icon">
+                <i class="fas fa-archive"></i>
+            </div>
+            <div class="stat-value"><?php echo count($ribbons); ?></div>
+            <div class="stat-label">Available Ribbons</div>
+        </div>
+    </div>
+
+    <div class="content-card">
+        <div class="card-header">
+            <h2><i class="fas fa-list"></i> Ribbon Issue Records</h2>
+        </div>
+
+        <?php if (empty($issues)): ?>
+            <div class="no-data">
+                <i class="fas fa-clipboard-list"></i>
+                <h3>No Issue Records Found</h3>
+                <p>Start by issuing your first ribbon.</p>
+                <button class="btn btn-primary" onclick="openModal('issueRibbonModal')">
+                    <i class="fas fa-plus"></i> Issue First Ribbon
+                </button>
+            </div>
+        <?php else: ?>
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ISSUE DATE</th>
+                            <th>RIBBON MODEL</th>
+                            <th>IS CODE</th>
+                            <th>STOCK</th>
+                            <th>LOT</th>
+                            <th>DIVISION</th>
+                            <th>SECTION</th>
+                            <th>REQUEST OFFICER</th>
+                            <th>RECEIVER</th>
+                            <th>QTY</th>
+                            <th>REMARKS</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($issues as $issue): ?>
+                            <tr>
+                                <td><?php echo htmlspecialchars($issue['issue_date']); ?></td>
+                                <td><?php echo htmlspecialchars($issue['ribbon_model'] ?: 'N/A'); ?></td>
+                                <td><?php echo htmlspecialchars($issue['code'] ?: 'N/A'); ?></td>
+                                <td><span class="badge badge-<?php echo strtolower($issue['stock']); ?>"><?php echo htmlspecialchars($issue['stock']); ?></span></td>
+                                <td><span class="badge badge-lot"><?php echo htmlspecialchars($issue['lot'] ?: 'N/A'); ?></span></td>
+                                <td><?php echo htmlspecialchars($issue['division']); ?></td>
+                                <td><?php echo htmlspecialchars($issue['section']); ?></td>
+                                <td><?php echo htmlspecialchars($issue['request_officer'] ?: '-'); ?></td>
+                                <td>
+                                    <?php echo htmlspecialchars($issue['receiver_name'] ?: '-'); ?><br>
+                                    <small><?php echo htmlspecialchars($issue['receiver_emp_no'] ?: ''); ?></small>
+                                </td>
+                                <td><span class="badge badge-quantity"><?php echo $issue['quantity']; ?></span></td>
+                                <td><?php echo htmlspecialchars($issue['remarks'] ?: 'No'); ?></td>
+                                <td>
+                                    <button class="btn btn-sm btn-info" title="View" onclick='viewIssue(<?php echo json_encode($issue); ?>)'><i class="fas fa-eye"></i></button>
+                                    <button class="btn btn-sm btn-success" title="Edit" onclick='editIssue(<?php echo json_encode($issue); ?>)'><i class="fas fa-edit"></i></button>
+                                    <button class="btn btn-sm btn-danger" title="Delete" onclick="confirmDelete(<?php echo $issue['issue_id']; ?>)"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        <?php endif; ?>
+    </div>
+</div>
+
+<!-- Issue Ribbon Modal -->
+<div id="issueRibbonModal" class="modal">
+    <div class="modal-content modal-large">
+        <div class="modal-header">
+            <h2><i class="fas fa-plus-circle"></i> Issue New Ribbon</h2>
+            <span class="modal-close" onclick="closeModal('issueRibbonModal')">&times;</span>
+        </div>
+        <form method="POST" action="">
+            <input type="hidden" name="action" value="issue">
+            <div class="modal-body">
+                <div class="form-section">
+                    <h4><i class="fas fa-print"></i> Ribbon Information</h4>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Select Ribbon (LOT) <span class="required">*</span></label>
+                            <select name="ribbon_id" id="ribbonSelect" class="form-control" required onchange="updateRibbonDetails()">
+                                <option value="">Select Ribbon with LOT</option>
+                                <?php foreach ($ribbons as $ribbon): ?>
+                                    <option value="<?php echo $ribbon['ribbon_id']; ?>"
+                                        data-model="<?php echo htmlspecialchars($ribbon['ribbon_model']); ?>"
+                                        data-lot="<?php echo htmlspecialchars($ribbon['lot'] ?? ''); ?>"
+                                        data-jct="<?php echo $ribbon['jct_stock']; ?>"
+                                        data-uct="<?php echo $ribbon['uct_stock']; ?>">
+                                        <?php echo htmlspecialchars($ribbon['ribbon_model']); ?> 
+                                        (LOT: <?php echo htmlspecialchars($ribbon['lot']); ?>) 
+                                        - JCT: <?php echo $ribbon['jct_stock']; ?>, 
+                                        UCT: <?php echo $ribbon['uct_stock']; ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Stock Location <span class="required">*</span></label>
+                            <select name="stock" id="stockSelect" class="form-control" required onchange="updateAvailableStock()">
+                                <option value="">Select Stock</option>
+                                <option value="JCT">JCT</option>
+                                <option value="UCT">UCT</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- Stock Info Box - Enhanced Design -->
+                    <div id="stockInfoBox" class="stock-info-box" style="display: none;">
+                        <div class="stock-info-icon">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <div class="stock-info-content">
+                            <strong>Available Stock:</strong>
+                            <div class="stock-info-details">
+                                <span class="stock-item stock-jct"><strong>JCT:</strong> <span id="jctQty">0</span> units</span>
+                                <span class="stock-item stock-uct"><strong>UCT:</strong> <span id="uctQty">0</span> units</span>
+                                <span class="stock-item stock-total"><strong>Total:</strong> <span id="totalQty">0</span> units</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Ribbon Model</label>
+                            <input type="text" name="ribbon_model" id="ribbonModelDisplay" class="form-control" readonly>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">LOT Number</label>
+                            <input type="text" name="lot" id="lotDisplay" class="form-control" readonly>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">IS Code</label>
+                            <input type="text" name="code" id="codeDisplay" class="form-control" placeholder="Enter code (optional)">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Quantity <span class="required">*</span></label>
+                            <input type="number" name="quantity" id="quantityInput" class="form-control" required min="1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h4><i class="fas fa-map-marker-alt"></i> Location Information</h4>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Division <span class="required">*</span></label>
+                            <select name="division" class="form-control" required>
+                                <option value="">Select Division</option>
+                                <option value="Board of Directors">Board of Directors</option>
+                                <option value="Civil Engineering Division">Civil Engineering Division</option>
+                                <option value="Communication & Public Relations Division">Communication & Public Relations Division</option>
+                                <option value="Container Freight Station">Container Freight Station</option>
+                                <option value="Contracts & Designs Division">Contracts & Designs Division</option>
+                                <option value="Covid-19 Prevention Action Committee">Covid-19 Prevention Action Committee</option>
+                                <option value="Development Division">Development Division</option>
+                                <option value="Electrical & Electronics Engineering Division">Electrical & Electronics Engineering Division</option>
+                                <option value="Engineering Division">Engineering Division</option>
+                                <option value="Finance Division">Finance Division</option>
+                                <option value="Galle Harbour">Galle Harbour</option>
+                                <option value="Government Audit Branch">Government Audit Branch</option>
+                                <option value="Heads of Divisions">Heads of Divisions</option>
+                                <option value="Human Resources Division">Human Resources Division</option>
+                                <option value="Information Systems Division">Information Systems Division</option>
+                                <option value="Internal Audit Division">Internal Audit Division</option>
+                                <option value="JCT Ltd">JCT Ltd</option>
+                                <option value="KKS Harbour">KKS Harbour</option>
+                                <option value="Legal Division">Legal Division</option>
+                                <option value="Logistics Division">Logistics Division</option>
+                                <option value="Mahapola Ports & Maritime Academy">Mahapola Ports & Maritime Academy</option>
+                                <option value="Marine Engineering Division">Marine Engineering Division</option>
+                                <option value="Marketing & Business Development Division">Marketing & Business Development Division</option>
+                                <option value="Mechanical & Maintenance Division">Mechanical & Maintenance Division</option>
+                                <option value="Medical Unit">Medical Unit</option>
+                                <option value="Navigation & Estate Division">Navigation & Estate Division</option>
+                                <option value="Occupational Health & Safety Division">Occupational Health & Safety Division</option>
+                                <option value="Operation Division">Operation Division</option>
+                                <option value="Planning and Development Division">Planning and Development Division</option>
+                                <option value="Port Security Division">Port Security Division</option>
+                                <option value="Supplies Division">Supplies Division</option>
+                                <option value="Premises and Land Management Division">Premises and Land Management Division</option>
+                                <option value="Secretariat Division">Secretariat Division</option>
+                                <option value="Security Division">Security Division</option>
+                                <option value="Mechanical Plant Division">Mechanical Plant Division</option>
+                                <option value="Mechanical Works Division">Mechanical Works Division</option>
+                                <option value="Terminal Operations Division">Terminal Operations Division</option>
+                                <option value="Training & Development Unit">Training & Development Unit</option>
+                                <option value="Trincomalee Harbour">Trincomalee Harbour</option>
+                                <option value="Trade Unions">Trade Unions</option>
+                                <option value="UCT Ltd">UCT Ltd</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Section <span class="required">*</span></label>
+                            <input type="text" name="section" class="form-control" required placeholder="Enter section">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Request Officer</label>
+                            <input type="text" name="request_officer" class="form-control" placeholder="Enter request officer name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h4><i class="fas fa-user"></i> Receiver Information</h4>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Receiver Name</label>
+                            <input type="text" name="receiver_name" class="form-control" placeholder="Enter receiver name">
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Receiver Employee No</label>
+                            <input type="text" name="receiver_emp_no" class="form-control" placeholder="Enter employee number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h4><i class="fas fa-calendar-alt"></i> Issue Details</h4>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Issue Date <span class="required">*</span></label>
+                            <input type="date" name="issue_date" class="form-control" required value="<?php echo date('Y-m-d'); ?>">
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Remarks</label>
+                            <textarea name="remarks" class="form-control" rows="3" placeholder="Enter any additional remarks"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModal('issueRibbonModal')">Cancel</button>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-check"></i>
+                    Issue Ribbon
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Edit Issue Modal -->
+<div id="editIssueModal" class="modal">
+    <div class="modal-content modal-large">
+        <div class="modal-header">
+            <h2><i class="fas fa-edit"></i> Edit Ribbon Issue</h2>
+            <span class="modal-close" onclick="closeModal('editIssueModal')">&times;</span>
+        </div>
+        <form method="POST" action="" id="editIssueForm">
+            <input type="hidden" name="action" value="edit">
+            <input type="hidden" name="issue_id" id="editIssueId">
+            <div class="modal-body">
+                <div class="form-section">
+                    <h4><i class="fas fa-print"></i> Ribbon Information</h4>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Ribbon ID <span class="required">*</span></label>
+                            <input type="number" name="ribbon_id" id="editRibbonId" class="form-control" required readonly>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Stock Location <span class="required">*</span></label>
+                            <select name="stock" id="editStock" class="form-control" required>
+                                <option value="">Select Stock</option>
+                                <option value="JCT">JCT</option>
+                                <option value="UCT">UCT</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Ribbon Model</label>
+                            <input type="text" name="ribbon_model" id="editRibbonModel" class="form-control" readonly>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">LOT Number</label>
+                            <input type="text" name="lot" id="editLot" class="form-control" readonly>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">IS Code</label>
+                            <input type="text" name="code" id="editCode" class="form-control" placeholder="Enter code (optional)">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Quantity <span class="required">*</span></label>
+                            <input type="number" name="quantity" id="editQuantity" class="form-control" required min="1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h4><i class="fas fa-map-marker-alt"></i> Location Information</h4>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Division <span class="required">*</span></label>
+                            <select name="division" id="editDivision" class="form-control" required>
+                                <option value="">Select Division</option>
+                                <option value="Board of Directors">Board of Directors</option>
+                                <option value="Civil Engineering Division">Civil Engineering Division</option>
+                                <option value="Communication & Public Relations Division">Communication & Public Relations Division</option>
+                                <option value="Container Freight Station">Container Freight Station</option>
+                                <option value="Contracts & Designs Division">Contracts & Designs Division</option>
+                                <option value="Covid-19 Prevention Action Committee">Covid-19 Prevention Action Committee</option>
+                                <option value="Development Division">Development Division</option>
+                                <option value="Electrical & Electronics Engineering Division">Electrical & Electronics Engineering Division</option>
+                                <option value="Engineering Division">Engineering Division</option>
+                                <option value="Finance Division">Finance Division</option>
+                                <option value="Galle Harbour">Galle Harbour</option>
+                                <option value="Government Audit Branch">Government Audit Branch</option>
+                                <option value="Heads of Divisions">Heads of Divisions</option>
+                                <option value="Human Resources Division">Human Resources Division</option>
+                                <option value="Information Systems Division">Information Systems Division</option>
+                                <option value="Internal Audit Division">Internal Audit Division</option>
+                                <option value="JCT Ltd">JCT Ltd</option>
+                                <option value="KKS Harbour">KKS Harbour</option>
+                                <option value="Legal Division">Legal Division</option>
+                                <option value="Logistics Division">Logistics Division</option>
+                                <option value="Mahapola Ports & Maritime Academy">Mahapola Ports & Maritime Academy</option>
+                                <option value="Marine Engineering Division">Marine Engineering Division</option>
+                                <option value="Marketing & Business Development Division">Marketing & Business Development Division</option>
+                                <option value="Mechanical & Maintenance Division">Mechanical & Maintenance Division</option>
+                                <option value="Medical Unit">Medical Unit</option>
+                                <option value="Navigation & Estate Division">Navigation & Estate Division</option>
+                                <option value="Occupational Health & Safety Division">Occupational Health & Safety Division</option>
+                                <option value="Operation Division">Operation Division</option>
+                                <option value="Planning and Development Division">Planning and Development Division</option>
+                                <option value="Port Security Division">Port Security Division</option>
+                                <option value="Supplies Division">Supplies Division</option>
+                                <option value="Premises and Land Management Division">Premises and Land Management Division</option>
+                                <option value="Secretariat Division">Secretariat Division</option>
+                                <option value="Security Division">Security Division</option>
+                                <option value="Mechanical Plant Division">Mechanical Plant Division</option>
+                                <option value="Mechanical Works Division">Mechanical Works Division</option>
+                                <option value="Terminal Operations Division">Terminal Operations Division</option>
+                                <option value="Training & Development Unit">Training & Development Unit</option>
+                                <option value="Trincomalee Harbour">Trincomalee Harbour</option>
+                                <option value="Trade Unions">Trade Unions</option>
+                                <option value="UCT Ltd">UCT Ltd</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Section <span class="required">*</span></label>
+                            <input type="text" name="section" id="editSection" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Request Officer</label>
+                            <input type="text" name="request_officer" id="editRequestOfficer" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h4><i class="fas fa-user"></i> Receiver Information</h4>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Receiver Name</label>
+                            <input type="text" name="receiver_name" id="editReceiverName" class="form-control">
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Receiver Employee No</label>
+                            <input type="text" name="receiver_emp_no" id="editReceiverEmpNo" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h4><i class="fas fa-calendar-alt"></i> Issue Details</h4>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Issue Date <span class="required">*</span></label>
+                            <input type="date" name="issue_date" id="editIssueDate" class="form-control" required>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Remarks</label>
+                            <textarea name="remarks" id="editRemarks" class="form-control" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModal('editIssueModal')">Cancel</button>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save"></i>
+                    Update Issue
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<?php include '../includes/footer.php'; ?>

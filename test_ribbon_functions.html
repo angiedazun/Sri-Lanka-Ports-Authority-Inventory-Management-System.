@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Ribbon Functions</title>
+</head>
+<body>
+    <h1>Test Ribbon Issuing Functions</h1>
+    <button onclick="testViewIssue()">Test View Issue</button>
+    <button onclick="testEditIssue()">Test Edit Issue</button>
+    
+    <script>
+        // Mock data
+        const issuesData = [{
+            issue_id: 1,
+            ribbon_id: 1,
+            ribbon_model: "Test Model",
+            code: "12345",
+            stock: "JCT",
+            lot: "2025/LOT1",
+            division: "Test Division",
+            section: "Test Section",
+            request_officer: "Test Officer",
+            receiver_name: "Test Receiver",
+            receiver_emp_no: "EMP001",
+            quantity: 1,
+            issue_date: "2025-12-09",
+            remarks: "Test remarks"
+        }];
+        
+        function testViewIssue() {
+            console.log('Testing viewIssue function...');
+            console.log('issuesData:', issuesData);
+            if (typeof viewIssue === 'function') {
+                viewIssue(1);
+            } else {
+                console.error('viewIssue is not defined');
+            }
+        }
+        
+        function testEditIssue() {
+            console.log('Testing editIssue function...');
+            if (typeof editIssue === 'function') {
+                editIssue(1);
+            } else {
+                console.error('editIssue is not defined');
+            }
+        }
+    </script>
+    
+    <script src="assets/js/ribbons-issuing.js"></script>
+</body>
+</html>

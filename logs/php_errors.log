@@ -1,0 +1,4204 @@
+[03-Dec-2025 19:23:37 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:23:50 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:23:50 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:23:51 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:24:03 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:24:04 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:24:16 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:24:17 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:24:17 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:24:18 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:24:18 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[03-Dec-2025 19:24:18 Asia/Colombo] PHP Fatal error:  Uncaught Error: Class "Config" not found in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php:18
+Stack trace:
+#0 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(26): ErrorHandler->__construct()
+#1 C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php(334): ErrorHandler::getInstance()
+#2 C:\xampp\htdocs\slpasystem\includes\autoload.php(49): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\slpasystem\includes\db.php(3): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\slpasystem\auth\logout.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\ErrorHandler.php on line 18
+[04-Dec-2025 10:11:03 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 10:11:03 Asia/Colombo] ErrorException
+[04-Dec-2025 11:39:25 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 11:39:25 Asia/Colombo] ErrorException
+[04-Dec-2025 11:39:28 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 11:39:28 Asia/Colombo] ErrorException
+[04-Dec-2025 12:36:38 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:36:38 Asia/Colombo] ErrorException
+[04-Dec-2025 12:36:48 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:36:48 Asia/Colombo] ErrorException
+[04-Dec-2025 12:37:38 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:37:38 Asia/Colombo] ErrorException
+[04-Dec-2025 12:40:54 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:40:54 Asia/Colombo] ErrorException
+[04-Dec-2025 12:43:55 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:43:55 Asia/Colombo] ErrorException
+[04-Dec-2025 12:52:14 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:52:14 Asia/Colombo] ErrorException
+[04-Dec-2025 12:53:10 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:53:10 Asia/Colombo] ErrorException
+[04-Dec-2025 12:53:42 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:53:42 Asia/Colombo] ErrorException
+[04-Dec-2025 12:54:18 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:54:18 Asia/Colombo] ErrorException
+[04-Dec-2025 12:55:41 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:55:41 Asia/Colombo] ErrorException
+[04-Dec-2025 12:59:57 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 12:59:57 Asia/Colombo] ErrorException
+[04-Dec-2025 13:04:53 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:04:53 Asia/Colombo] ErrorException
+[04-Dec-2025 13:05:10 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:05:10 Asia/Colombo] ErrorException
+[04-Dec-2025 13:05:33 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:05:33 Asia/Colombo] ErrorException
+[04-Dec-2025 13:09:06 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:09:06 Asia/Colombo] ErrorException
+[04-Dec-2025 13:14:09 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:14:09 Asia/Colombo] ErrorException
+[04-Dec-2025 13:15:02 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:15:02 Asia/Colombo] ErrorException
+[04-Dec-2025 13:20:14 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:20:14 Asia/Colombo] ErrorException
+[04-Dec-2025 13:21:46 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:23:35 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:23:35 Asia/Colombo] ErrorException
+[04-Dec-2025 13:28:40 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:28:40 Asia/Colombo] ErrorException
+[04-Dec-2025 13:30:08 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:30:08 Asia/Colombo] ErrorException
+[04-Dec-2025 13:37:18 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:37:18 Asia/Colombo] ErrorException
+[04-Dec-2025 13:48:04 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:54:21 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 13:55:34 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 3
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+    [1] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 5
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[04-Dec-2025 13:55:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 3
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+    [1] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 5
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[04-Dec-2025 19:32:16 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 19:32:16 Asia/Colombo] ErrorException
+[04-Dec-2025 21:06:41 Asia/Colombo] DB Record - receiver_name: z, receiver_emp_no: z
+[04-Dec-2025 21:06:41 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 21:06:41 Asia/Colombo] ErrorException
+[04-Dec-2025 21:06:49 Asia/Colombo] DB Record - receiver_name: z, receiver_emp_no: z
+[04-Dec-2025 21:06:49 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 21:06:49 Asia/Colombo] ErrorException
+[04-Dec-2025 21:07:11 Asia/Colombo] DB Record - receiver_name: z, receiver_emp_no: z
+[04-Dec-2025 21:07:11 Asia/Colombo] PHP Error: E_WARNING
+[04-Dec-2025 21:07:11 Asia/Colombo] ErrorException
+[06-Dec-2025 06:30:49 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 06:30:49 Asia/Colombo] ErrorException
+[06-Dec-2025 06:58:16 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 06:58:16 Asia/Colombo] ErrorException
+[06-Dec-2025 07:12:48 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 07:12:48 Asia/Colombo] ErrorException
+[06-Dec-2025 07:16:53 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 07:16:53 Asia/Colombo] ErrorException
+[06-Dec-2025 07:23:06 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 07:23:06 Asia/Colombo] ErrorException
+[06-Dec-2025 07:42:18 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 07:42:18 Asia/Colombo] ErrorException
+[06-Dec-2025 07:59:50 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 07:59:50 Asia/Colombo] ErrorException
+[06-Dec-2025 08:38:11 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 08:38:11 Asia/Colombo] ErrorException
+[06-Dec-2025 08:45:00 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 08:45:00 Asia/Colombo] ErrorException
+[06-Dec-2025 08:45:38 Asia/Colombo] PHP Error: E_WARNING
+[06-Dec-2025 08:45:38 Asia/Colombo] ErrorException
+[07-Dec-2025 05:19:35 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:19:35 Asia/Colombo] ErrorException
+[07-Dec-2025 05:25:39 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 3
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+    [1] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 5
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 05:27:02 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:27:02 Asia/Colombo] ErrorException
+[07-Dec-2025 05:33:38 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:33:38 Asia/Colombo] ErrorException
+[07-Dec-2025 05:33:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:33:39 Asia/Colombo] ErrorException
+[07-Dec-2025 05:33:40 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:33:40 Asia/Colombo] ErrorException
+[07-Dec-2025 05:33:41 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:33:41 Asia/Colombo] ErrorException
+[07-Dec-2025 05:41:22 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:41:22 Asia/Colombo] ErrorException
+[07-Dec-2025 05:41:24 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:41:24 Asia/Colombo] ErrorException
+[07-Dec-2025 05:41:24 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:41:24 Asia/Colombo] ErrorException
+[07-Dec-2025 05:42:06 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:42:06 Asia/Colombo] ErrorException
+[07-Dec-2025 05:42:46 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:42:46 Asia/Colombo] ErrorException
+[07-Dec-2025 05:42:55 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 05:42:55 Asia/Colombo] ErrorException
+[07-Dec-2025 05:44:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 3
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+    [1] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 5
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 06:00:42 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 3
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+    [1] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 5
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 06:00:44 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:00:44 Asia/Colombo] ErrorException
+[07-Dec-2025 06:01:41 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:01:42 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:37 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:37 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:38 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:38 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:38 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:38 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:39 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:39 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:39 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:39 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:39 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:39 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:40 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:40 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:40 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:40 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:40 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:40 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:40 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:40 Asia/Colombo] ErrorException
+[07-Dec-2025 06:09:41 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:09:41 Asia/Colombo] ErrorException
+[07-Dec-2025 06:33:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:33:40 Asia/Colombo] ErrorException
+[07-Dec-2025 06:37:54 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:37:54 Asia/Colombo] ErrorException
+[07-Dec-2025 06:41:21 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:41:21 Asia/Colombo] ErrorException
+[07-Dec-2025 06:41:31 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:41:31 Asia/Colombo] ErrorException
+[07-Dec-2025 06:41:33 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:41:33 Asia/Colombo] ErrorException
+[07-Dec-2025 06:41:35 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:41:35 Asia/Colombo] ErrorException
+[07-Dec-2025 06:45:35 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 06:45:35 Asia/Colombo] ErrorException
+[07-Dec-2025 06:51:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 3
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+    [1] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 5
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 07:16:15 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 3
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+    [1] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 5
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 07:16:25 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 3
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+    [1] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 5
+            [ribbon_id] => 9
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 07:16:46 Asia/Colombo] LOT STOCKS DATA: Array
+(
+)
+
+[07-Dec-2025 07:16:51 Asia/Colombo] LOT STOCKS DATA: Array
+(
+)
+
+[07-Dec-2025 07:18:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 10
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 08:01:30 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:10:03 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:10:03 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:10:03 Asia/Colombo] ErrorException
+[07-Dec-2025 08:33:34 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:33:34 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:33:34 Asia/Colombo] ErrorException
+[07-Dec-2025 08:33:37 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:33:37 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:33:37 Asia/Colombo] ErrorException
+[07-Dec-2025 08:33:37 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:33:37 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:33:37 Asia/Colombo] ErrorException
+[07-Dec-2025 08:36:04 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:36:04 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:36:04 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:02 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:02 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:02 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:03 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:03 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:03 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:03 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:03 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:03 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:03 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:03 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:03 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:04 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:04 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:04 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:04 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:04 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:04 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:05 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:05 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:05 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:05 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:05 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:05 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:05 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:05 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:05 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:05 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:05 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:05 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:05 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:05 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:05 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:06 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:06 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:06 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:06 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:06 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:06 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:06 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:06 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:06 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:06 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:07 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:07 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:07 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:07 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:07 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:07 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:07 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:07 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:08 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:08 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:08 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:08 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:08 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:08 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:08 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:08 Asia/Colombo] ErrorException
+[07-Dec-2025 08:39:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:39:09 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:39:09 Asia/Colombo] ErrorException
+[07-Dec-2025 08:40:36 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:40:36 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:40:36 Asia/Colombo] ErrorException
+[07-Dec-2025 08:40:37 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:40:37 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:40:37 Asia/Colombo] ErrorException
+[07-Dec-2025 08:40:39 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:40:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:40:39 Asia/Colombo] ErrorException
+[07-Dec-2025 08:40:40 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:40:40 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:40:40 Asia/Colombo] ErrorException
+[07-Dec-2025 08:40:41 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:40:41 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:40:41 Asia/Colombo] ErrorException
+[07-Dec-2025 08:40:42 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:40:42 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:40:42 Asia/Colombo] ErrorException
+[07-Dec-2025 08:49:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 10
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 08:50:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 10
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 08:51:29 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 10
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 08:51:32 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:51:32 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:51:32 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:41 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:41 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:41 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:42 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:42 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:42 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:43 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:43 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:43 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:44 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:44 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:44 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:44 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:44 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:44 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:44 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:44 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:44 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:44 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:44 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:44 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:45 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:45 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:45 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:45 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:45 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:45 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:45 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:45 Asia/Colombo] ErrorException
+[07-Dec-2025 08:55:46 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:55:46 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:55:46 Asia/Colombo] ErrorException
+[07-Dec-2025 08:57:41 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:57:41 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:57:41 Asia/Colombo] ErrorException
+[07-Dec-2025 08:58:46 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:58:46 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:58:46 Asia/Colombo] ErrorException
+[07-Dec-2025 08:58:48 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 08:58:48 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 08:58:48 Asia/Colombo] ErrorException
+[07-Dec-2025 08:59:04 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 10
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 09:01:13 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 09:01:13 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 09:01:13 Asia/Colombo] ErrorException
+[07-Dec-2025 09:03:30 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 09:03:30 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 09:03:30 Asia/Colombo] ErrorException
+[07-Dec-2025 09:08:52 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 09:08:52 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 09:08:52 Asia/Colombo] ErrorException
+[07-Dec-2025 09:08:54 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 09:08:54 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 09:08:54 Asia/Colombo] ErrorException
+[07-Dec-2025 09:10:34 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 09:10:34 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 09:10:34 Asia/Colombo] ErrorException
+[07-Dec-2025 09:11:05 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [lot] => 2025
+            [paper_id] => 34
+            [paper_type] => 9.5 x 11 - 1 ply
+        )
+
+)
+
+[07-Dec-2025 09:11:05 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 09:11:05 Asia/Colombo] ErrorException
+[07-Dec-2025 16:46:56 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:46:56 Asia/Colombo] ErrorException
+[07-Dec-2025 16:49:42 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:49:42 Asia/Colombo] ErrorException
+[07-Dec-2025 16:49:47 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:49:47 Asia/Colombo] ErrorException
+[07-Dec-2025 16:50:00 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:50:00 Asia/Colombo] ErrorException
+[07-Dec-2025 16:51:35 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:51:35 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:11 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:11 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:12 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:12 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:13 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:13 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:13 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:13 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:14 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:14 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:27 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:27 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:28 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:28 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:29 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:29 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:30 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:30 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:31 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:31 Asia/Colombo] ErrorException
+[07-Dec-2025 16:54:31 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:54:31 Asia/Colombo] ErrorException
+[07-Dec-2025 16:55:46 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:55:46 Asia/Colombo] ErrorException
+[07-Dec-2025 16:55:47 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:55:47 Asia/Colombo] ErrorException
+[07-Dec-2025 16:55:48 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:55:48 Asia/Colombo] ErrorException
+[07-Dec-2025 16:55:49 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:55:49 Asia/Colombo] ErrorException
+[07-Dec-2025 16:55:56 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:55:56 Asia/Colombo] ErrorException
+[07-Dec-2025 16:55:58 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:55:58 Asia/Colombo] ErrorException
+[07-Dec-2025 16:57:13 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 16:57:13 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:15 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:15 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:16 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:16 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:18 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:18 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:18 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:18 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:18 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:18 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:18 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:18 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:18 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:18 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:19 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:19 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:19 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:19 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:19 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:19 Asia/Colombo] ErrorException
+[07-Dec-2025 17:00:19 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:00:19 Asia/Colombo] ErrorException
+[07-Dec-2025 17:01:58 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:01:58 Asia/Colombo] ErrorException
+[07-Dec-2025 17:02:14 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:02:14 Asia/Colombo] ErrorException
+[07-Dec-2025 17:03:08 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:03:08 Asia/Colombo] ErrorException
+[07-Dec-2025 17:04:59 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:04:59 Asia/Colombo] ErrorException
+[07-Dec-2025 17:06:58 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:06:59 Asia/Colombo] ErrorException
+[07-Dec-2025 17:07:13 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:07:13 Asia/Colombo] ErrorException
+[07-Dec-2025 17:08:57 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:08:57 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:54 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:54 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:56 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:56 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:56 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:56 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:56 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:56 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:57 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:57 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:57 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:57 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:57 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:57 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:57 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:57 Asia/Colombo] ErrorException
+[07-Dec-2025 17:16:57 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:16:57 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:21 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:21 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:22 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:22 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:23 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:23 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:24 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:24 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:25 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:25 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:26 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:26 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:27 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:27 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:28 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:28 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:28 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:28 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:29 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:29 Asia/Colombo] ErrorException
+[07-Dec-2025 17:21:30 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:21:30 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:03 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:03 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:05 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:05 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:07 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:07 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:08 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:08 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:09 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:09 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:09 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:09 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:09 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:09 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:09 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:09 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:10 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:10 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:10 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:10 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:10 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:10 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:10 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:10 Asia/Colombo] ErrorException
+[07-Dec-2025 17:22:16 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:22:16 Asia/Colombo] PHP Fatal error:  Uncaught ErrorException: session_start(): Session cannot be started after headers have already been sent in C:\xampp\htdocs\slpasystem\includes\db.php:17
+Stack trace:
+#0 [internal function]: ErrorHandler->handleError(2, 'session_start()...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\slpasystem\includes\db.php(17): session_start()
+#2 C:\xampp\htdocs\slpasystem\pages\papers_issuing.php(2): require_once('C:\\xampp\\htdocs...')
+#3 Command line code(1): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\db.php on line 17
+[07-Dec-2025 17:22:16 Asia/Colombo] Fatal Error (E_ERROR): Uncaught ErrorException: session_start(): Session cannot be started after headers have already been sent in C:\xampp\htdocs\slpasystem\includes\db.php:17
+Stack trace:
+#0 [internal function]: ErrorHandler->handleError(2, 'session_start()...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\slpasystem\includes\db.php(17): session_start()
+#2 C:\xampp\htdocs\slpasystem\pages\papers_issuing.php(2): require_once('C:\\xampp\\htdocs...')
+#3 Command line code(1): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\slpasystem\includes\db.php on line 17
+[07-Dec-2025 17:24:16 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:24:16 Asia/Colombo] ErrorException
+[07-Dec-2025 17:25:11 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:25:11 Asia/Colombo] ErrorException
+[07-Dec-2025 17:27:38 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:27:38 Asia/Colombo] ErrorException
+[07-Dec-2025 17:27:39 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:27:39 Asia/Colombo] ErrorException
+[07-Dec-2025 17:27:40 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:27:40 Asia/Colombo] ErrorException
+[07-Dec-2025 17:28:20 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:28:20 Asia/Colombo] ErrorException
+[07-Dec-2025 17:29:51 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:29:51 Asia/Colombo] ErrorException
+[07-Dec-2025 17:29:52 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:29:52 Asia/Colombo] ErrorException
+[07-Dec-2025 17:29:53 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:29:53 Asia/Colombo] ErrorException
+[07-Dec-2025 17:29:53 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:29:53 Asia/Colombo] ErrorException
+[07-Dec-2025 17:29:53 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:29:53 Asia/Colombo] ErrorException
+[07-Dec-2025 17:31:08 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:31:08 Asia/Colombo] ErrorException
+[07-Dec-2025 17:31:52 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:31:52 Asia/Colombo] ErrorException
+[07-Dec-2025 17:34:06 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:34:06 Asia/Colombo] ErrorException
+[07-Dec-2025 17:52:42 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:52:42 Asia/Colombo] ErrorException
+[07-Dec-2025 17:53:30 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:53:30 Asia/Colombo] ErrorException
+[07-Dec-2025 17:55:19 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 17:55:19 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:42 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:42 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:45 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:45 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:45 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:45 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:47 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:47 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:47 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:47 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:48 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:48 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:48 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:48 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:48 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:48 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:49 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:49 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:49 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:49 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:49 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:49 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:49 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:49 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:49 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:49 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:50 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:50 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:50 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:50 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:50 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:50 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:50 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:50 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:50 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:50 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:51 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:51 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:51 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:51 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:51 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:51 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:51 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:51 Asia/Colombo] ErrorException
+[07-Dec-2025 18:00:51 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:00:51 Asia/Colombo] ErrorException
+[07-Dec-2025 18:02:18 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:02:18 Asia/Colombo] ErrorException
+[07-Dec-2025 18:08:15 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 10
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 18:08:28 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 18:08:28 Asia/Colombo] ErrorException
+[07-Dec-2025 19:22:37 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 19:22:37 Asia/Colombo] ErrorException
+[07-Dec-2025 19:29:16 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 19:29:16 Asia/Colombo] ErrorException
+[07-Dec-2025 19:47:03 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 19:47:03 Asia/Colombo] ErrorException
+[07-Dec-2025 19:56:55 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 19:56:55 Asia/Colombo] ErrorException
+[07-Dec-2025 19:57:31 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 19:57:31 Asia/Colombo] ErrorException
+[07-Dec-2025 20:00:15 Asia/Colombo] PHP Error: E_WARNING
+[07-Dec-2025 20:00:15 Asia/Colombo] ErrorException
+[07-Dec-2025 20:03:05 Asia/Colombo] PHP Warning:  Undefined array key "paper_size" in C:\xampp\htdocs\slpasystem\pages\papers_return.php on line 29
+[07-Dec-2025 20:04:03 Asia/Colombo] LOT STOCKS DATA: Array
+(
+)
+
+[07-Dec-2025 20:05:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 11
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 20:06:21 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 11
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 20:06:34 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 11
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 20:06:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 11
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 20:09:41 Asia/Colombo] LOT STOCKS DATA: Array
+(
+)
+
+[07-Dec-2025 20:10:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 12
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[07-Dec-2025 20:10:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 12
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[07-Dec-2025 20:24:30 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 2
+            [ribbon_id] => 13
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[07-Dec-2025 20:24:43 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 2
+            [ribbon_id] => 13
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 15:49:25 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 15:49:25 Asia/Colombo] ErrorException
+[09-Dec-2025 17:37:34 Asia/Colombo] ArgumentCountError
+[09-Dec-2025 17:49:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 17:49:26 Asia/Colombo] ErrorException
+[09-Dec-2025 17:51:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 17:51:45 Asia/Colombo] ErrorException
+[09-Dec-2025 17:53:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 17:53:27 Asia/Colombo] ErrorException
+[09-Dec-2025 17:53:42 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 17:53:42 Asia/Colombo] ErrorException
+[09-Dec-2025 17:55:20 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 17:55:20 Asia/Colombo] ErrorException
+[09-Dec-2025 17:57:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 17:57:27 Asia/Colombo] ErrorException
+[09-Dec-2025 18:00:59 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 18:00:59 Asia/Colombo] ErrorException
+[09-Dec-2025 18:03:49 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 18:03:49 Asia/Colombo] ErrorException
+[09-Dec-2025 18:05:55 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 18:05:55 Asia/Colombo] ErrorException
+[09-Dec-2025 18:18:29 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 18:18:29 Asia/Colombo] ErrorException
+[09-Dec-2025 18:23:59 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 18:23:59 Asia/Colombo] ErrorException
+[09-Dec-2025 18:27:37 Asia/Colombo] ArgumentCountError
+[09-Dec-2025 18:39:16 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:39:43 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:43:52 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:44:24 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:47:13 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:48:33 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:49:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:53:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:54:29 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:56:53 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:57:32 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 18:58:20 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 19:06:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 19:06:24 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 19:11:49 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 19:12:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 19:46:17 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 14
+            [ribbon_model] => Tally Dascom 2600
+        )
+
+)
+
+[09-Dec-2025 21:24:52 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:26:13 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:26:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:35:29 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:35:29 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:35:29 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:06 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:06 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:07 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:07 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:08 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:08 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:08 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:08 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:09 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:09 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:09 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:09 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:09 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:09 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:09 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:09 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:09 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:09 Asia/Colombo] ErrorException
+[09-Dec-2025 21:39:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:39:09 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:39:09 Asia/Colombo] ErrorException
+[09-Dec-2025 21:41:10 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:41:10 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:41:10 Asia/Colombo] ErrorException
+[09-Dec-2025 21:41:13 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:46:00 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:46:53 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:24 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:24 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:24 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:26 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:26 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:27 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:27 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:27 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:27 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:27 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:28 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:28 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:28 Asia/Colombo] ErrorException
+[09-Dec-2025 21:47:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:47:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:47:28 Asia/Colombo] ErrorException
+[09-Dec-2025 21:49:05 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:49:05 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:49:05 Asia/Colombo] ErrorException
+[09-Dec-2025 21:49:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:49:06 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:49:06 Asia/Colombo] ErrorException
+[09-Dec-2025 21:50:18 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:50:18 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:50:18 Asia/Colombo] ErrorException
+[09-Dec-2025 21:52:25 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:52:25 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:52:25 Asia/Colombo] ErrorException
+[09-Dec-2025 21:52:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:52:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:52:26 Asia/Colombo] ErrorException
+[09-Dec-2025 21:52:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:52:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:52:26 Asia/Colombo] ErrorException
+[09-Dec-2025 21:52:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:52:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:52:27 Asia/Colombo] ErrorException
+[09-Dec-2025 21:52:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:52:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:52:27 Asia/Colombo] ErrorException
+[09-Dec-2025 21:52:38 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:52:38 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:52:38 Asia/Colombo] ErrorException
+[09-Dec-2025 21:52:55 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:52:55 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:52:55 Asia/Colombo] ErrorException
+[09-Dec-2025 21:54:48 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:54:48 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:54:48 Asia/Colombo] ErrorException
+[09-Dec-2025 21:58:46 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:58:46 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:58:46 Asia/Colombo] ErrorException
+[09-Dec-2025 21:58:47 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 21:58:47 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 21:58:47 Asia/Colombo] ErrorException
+[09-Dec-2025 22:00:20 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:00:20 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:00:20 Asia/Colombo] ErrorException
+[09-Dec-2025 22:00:29 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:00:29 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:00:29 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:41 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:41 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:41 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:42 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:42 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:42 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:42 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:42 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:42 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:43 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:43 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:43 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:44 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:44 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:44 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:44 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:44 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:44 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:45 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:45 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:45 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:45 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:46 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:46 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:46 Asia/Colombo] ErrorException
+[09-Dec-2025 22:04:46 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:04:46 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:04:46 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:53 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:53 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:53 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:54 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:54 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:54 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:55 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:55 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:55 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:55 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:55 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:55 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:58 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:58 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:58 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:58 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:58 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:58 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:58 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:58 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:58 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:58 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:58 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:58 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:59 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:59 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:59 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:59 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:59 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:59 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:59 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:59 Asia/Colombo] ErrorException
+[09-Dec-2025 22:05:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:05:59 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:05:59 Asia/Colombo] ErrorException
+[09-Dec-2025 22:06:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:06:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:06:45 Asia/Colombo] ErrorException
+[09-Dec-2025 22:06:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:06:46 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:06:46 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:55 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:55 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:55 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:56 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:56 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:56 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:58 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:58 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:58 Asia/Colombo] ErrorException
+[09-Dec-2025 22:07:58 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:07:58 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:07:58 Asia/Colombo] ErrorException
+[09-Dec-2025 22:10:57 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:10:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:10:57 Asia/Colombo] ErrorException
+[09-Dec-2025 22:10:59 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:10:59 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:10:59 Asia/Colombo] ErrorException
+[09-Dec-2025 22:11:52 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:11:52 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:11:52 Asia/Colombo] ErrorException
+[09-Dec-2025 22:11:53 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:11:53 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:11:53 Asia/Colombo] ErrorException
+[09-Dec-2025 22:11:53 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:11:53 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:11:53 Asia/Colombo] ErrorException
+[09-Dec-2025 22:11:53 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:11:53 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:11:53 Asia/Colombo] ErrorException
+[09-Dec-2025 22:11:54 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:11:54 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:11:54 Asia/Colombo] ErrorException
+[09-Dec-2025 22:13:12 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:13:12 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:13:12 Asia/Colombo] ErrorException
+[09-Dec-2025 22:13:12 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:13:12 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:13:12 Asia/Colombo] ErrorException
+[09-Dec-2025 22:14:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:14:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:14:45 Asia/Colombo] ErrorException
+[09-Dec-2025 22:14:45 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:14:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:14:45 Asia/Colombo] ErrorException
+[09-Dec-2025 22:14:46 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:14:46 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:14:46 Asia/Colombo] ErrorException
+[09-Dec-2025 22:14:49 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:14:49 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:14:49 Asia/Colombo] ErrorException
+[09-Dec-2025 22:15:00 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:15:00 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:15:00 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:21 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:21 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:21 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:22 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:22 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:22 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:23 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:23 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:23 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:24 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:24 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:24 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:24 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:24 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:24 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:24 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:24 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:24 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:25 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:25 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:25 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:25 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:25 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:25 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:25 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:25 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:25 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:25 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:25 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:25 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:26 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:26 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:26 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:26 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:26 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:26 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:26 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:27 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:27 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:27 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:27 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:28 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:28 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:28 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:28 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:28 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:28 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:29 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:29 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:29 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:29 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:29 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:29 Asia/Colombo] ErrorException
+[09-Dec-2025 22:16:29 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:16:29 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:16:29 Asia/Colombo] ErrorException
+[09-Dec-2025 22:17:55 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:17:55 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:17:55 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:05 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:05 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:05 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:06 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:06 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:07 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:07 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:07 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:07 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:08 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:08 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:08 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:09 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:09 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:09 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:09 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:09 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:10 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:10 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:10 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:11 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:11 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:11 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:43 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:43 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:43 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:44 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:44 Asia/Colombo] ErrorException
+[09-Dec-2025 22:18:44 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:18:44 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:18:44 Asia/Colombo] ErrorException
+[09-Dec-2025 22:19:34 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:19:34 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:19:34 Asia/Colombo] ErrorException
+[09-Dec-2025 22:19:35 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:19:35 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:19:35 Asia/Colombo] ErrorException
+[09-Dec-2025 22:19:35 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:19:35 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 22:19:35 Asia/Colombo] ErrorException
+[09-Dec-2025 22:19:46 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:19:47 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:19:47 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:19:48 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:20:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:25:06 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:33:52 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:34:35 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:46:28 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:47:07 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:47:11 Asia/Colombo] mysqli_sql_exception
+[09-Dec-2025 22:47:23 Asia/Colombo] LOT STOCKS DATA: Array
+(
+    [0] => Array
+        (
+            [stock] => JCT/UCT
+            [lot] => 2025/LOT 1
+            [ribbon_id] => 15
+            [ribbon_model] => Tally Dascom 2610
+        )
+
+)
+
+[09-Dec-2025 22:47:33 Asia/Colombo] mysqli_sql_exception
+[09-Dec-2025 22:47:35 Asia/Colombo] mysqli_sql_exception
+[09-Dec-2025 22:47:36 Asia/Colombo] mysqli_sql_exception
+[09-Dec-2025 22:47:44 Asia/Colombo] mysqli_sql_exception
+[09-Dec-2025 22:49:44 Asia/Colombo] mysqli_sql_exception
+[09-Dec-2025 22:49:46 Asia/Colombo] mysqli_sql_exception
+[09-Dec-2025 22:52:22 Asia/Colombo] Ribbon suggestions error: Unknown column 'rm.code' in 'field list'
+[09-Dec-2025 22:53:07 Asia/Colombo] Ribbon suggestions error: Unknown column 'rm.code' in 'field list'
+[09-Dec-2025 22:53:31 Asia/Colombo] mysqli_sql_exception
+[09-Dec-2025 22:54:16 Asia/Colombo] Ribbon suggestions error: Unknown column 'rm.code' in 'field list'
+[09-Dec-2025 22:54:40 Asia/Colombo] Ribbon suggestions error: Unknown column 'rm.code' in 'field list'
+[09-Dec-2025 22:54:42 Asia/Colombo] Ribbon suggestions error: Unknown column 'rm.code' in 'field list'
+[09-Dec-2025 22:55:13 Asia/Colombo] Ribbon suggestions error: Unknown column 'rm.code' in 'field list'
+[09-Dec-2025 22:55:16 Asia/Colombo] Ribbon suggestions error: Unknown column 'rm.code' in 'field list'
+[09-Dec-2025 22:56:02 Asia/Colombo] Ribbon suggestions error: Unknown column 'rm.code' in 'field list'
+[09-Dec-2025 23:34:44 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 23:34:44 Asia/Colombo] ErrorException
+[09-Dec-2025 23:41:30 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 23:41:30 Asia/Colombo] ErrorException
+[09-Dec-2025 23:44:37 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 23:44:37 Asia/Colombo] ErrorException
+[09-Dec-2025 23:44:57 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 23:44:57 Asia/Colombo] ErrorException
+[09-Dec-2025 23:45:39 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 23:45:39 Asia/Colombo] ErrorException
+[09-Dec-2025 23:47:35 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 23:47:35 Asia/Colombo] ErrorException
+[09-Dec-2025 23:48:45 Asia/Colombo] PHP Error: E_WARNING
+[09-Dec-2025 23:48:45 Asia/Colombo] ErrorException
+[10-Dec-2025 00:39:05 Asia/Colombo] RIBBON ISSUE ATTEMPT - POST data: Array
+(
+    [action] => issue
+    [ribbon_id] => 17
+    [stock] => JCT
+    [ribbon_model] => Tally Dascom 2610
+    [lot] => 2025/LOT1
+    [code] => 2
+    [quantity] => 1
+    [division] => Government Audit Branch
+    [section] => x
+    [store] => 
+    [request_officer] => x
+    [receiver_name] => x
+    [receiver_emp_no] => x
+    [issue_date] => 2025-12-10
+    [remarks] => x
+)
+
+[10-Dec-2025 00:39:05 Asia/Colombo] PROCESSED VALUES - ribbon_id: 17, stock: JCT, division: Government Audit Branch, section: x, quantity: 1
+[10-Dec-2025 00:41:40 Asia/Colombo] RIBBON ISSUE ATTEMPT - POST data: Array
+(
+    [action] => issue
+    [ribbon_id] => 17
+    [stock] => JCT
+    [ribbon_model] => Tally Dascom 2610
+    [lot] => 2025/LOT1
+    [code] => 2
+    [quantity] => 1
+    [division] => Heads of Divisions
+    [section] => x
+    [store] => 
+    [request_officer] => x
+    [receiver_name] => x
+    [receiver_emp_no] => x
+    [issue_date] => 2025-12-10
+    [remarks] => s
+)
+
+[10-Dec-2025 00:41:40 Asia/Colombo] PROCESSED VALUES - ribbon_id: 17, stock: JCT, division: Heads of Divisions, section: x, quantity: 1
+[10-Dec-2025 00:44:05 Asia/Colombo] RIBBON ISSUE ATTEMPT - POST data: Array
+(
+    [action] => issue
+    [ribbon_id] => 18
+    [stock] => JCT
+    [ribbon_model] => Epson LQ 310
+    [lot] => 2025/LOT1
+    [code] => 2
+    [quantity] => 1
+    [division] => Heads of Divisions
+    [section] => x
+    [store] => 
+    [request_officer] => x
+    [receiver_name] => x
+    [receiver_emp_no] => x
+    [issue_date] => 2025-12-10
+    [remarks] => j
+)
+
+[10-Dec-2025 00:44:05 Asia/Colombo] PROCESSED VALUES - ribbon_id: 18, stock: JCT, division: Heads of Divisions, section: x, quantity: 1
+[10-Dec-2025 01:20:47 Asia/Colombo] PHP Error: E_WARNING
+[10-Dec-2025 01:20:47 Asia/Colombo] ErrorException
+[10-Dec-2025 01:20:48 Asia/Colombo] PHP Error: E_WARNING
+[10-Dec-2025 01:20:48 Asia/Colombo] ErrorException
+[10-Dec-2025 01:20:50 Asia/Colombo] PHP Error: E_WARNING
+[10-Dec-2025 01:20:50 Asia/Colombo] ErrorException
+[10-Dec-2025 07:46:01 Asia/Colombo] Database connection error: No connection could be made because the target machine actively refused it

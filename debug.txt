@@ -1,0 +1,18 @@
+FORM RECEIVED: Array
+(
+    [action] => issue
+    [ribbon_id] => 18
+    [stock] => JCT
+    [ribbon_model] => Epson LQ 310
+    [lot] => 2025/LOT1
+    [code] => 1
+    [quantity] => 1
+    [division] => Information Systems Division
+    [section] => d
+    [store] => 
+    [request_officer] => d
+    [receiver_name] => d
+    [receiver_emp_no] => d
+    [issue_date] => 2025-12-10
+    [remarks] => b
+)

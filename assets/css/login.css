@@ -1,0 +1,1195 @@
+/* Sri Lanka Ports Authority - Purple Gradient Login Design */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Purple Gradient Background with Decorative Pattern */
+.login-wrapper {
+    background: linear-gradient(135deg, #7e57c2 0%, #f5f5f5 50%, #ffffff 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative Circles */
+.decoration-circle {
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: float 10s ease-in-out infinite;
+}
+
+.circle-1 {
+    width: 150px;
+    height: 150px;
+    top: 10%;
+    left: 5%;
+    border-width: 3px;
+    animation-delay: 0s;
+}
+
+.circle-2 {
+    width: 80px;
+    height: 80px;
+    bottom: 20%;
+    right: 10%;
+    border-width: 2px;
+    animation-delay: 1s;
+}
+
+.circle-3 {
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    right: 5%;
+    border-width: 1px;
+    animation-delay: 2s;
+}
+
+/* Decorative Shapes */
+.decoration-shape {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(45deg);
+    animation: spin 20s linear infinite;
+}
+
+.shape-1 {
+    width: 30px;
+    height: 30px;
+    top: 15%;
+    right: 20%;
+}
+
+.shape-2 {
+    width: 20px;
+    height: 20px;
+    bottom: 25%;
+    left: 15%;
+}
+
+.shape-3 {
+    width: 15px;
+    height: 15px;
+    top: 60%;
+    left: 10%;
+    background: #ff3d7f;
+}
+
+.shape-4 {
+    width: 25px;
+    height: 25px;
+    bottom: 15%;
+    right: 25%;
+    background: #ff3d7f;
+}
+
+/* Decorative Dots */
+.decoration-dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.dot-1 {
+    top: 25%;
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.dot-2 {
+    top: 40%;
+    right: 15%;
+    animation-delay: 0.5s;
+}
+
+.dot-3 {
+    bottom: 30%;
+    left: 25%;
+    animation-delay: 1s;
+}
+
+.dot-4 {
+    bottom: 10%;
+    right: 30%;
+    animation-delay: 1.5s;
+}
+
+/* Office Supply Decorations */
+/* Toner Cartridges */
+.toner {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    background: linear-gradient(135deg, #424242 0%, #212121 100%);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: float 8s ease-in-out infinite;
+}
+
+.toner::before {
+    content: 'TONER';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.toner::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.toner-1 {
+    top: 15%;
+    left: 8%;
+    animation-delay: 0s;
+}
+
+.toner-2 {
+    bottom: 15%;
+    right: 12%;
+    animation-delay: 2s;
+}
+
+/* Ribbon Cartridges */
+.ribbon {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: float 10s ease-in-out infinite;
+}
+
+.ribbon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.ribbon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.ribbon-1 {
+    top: 25%;
+    right: 8%;
+    animation-delay: 1s;
+}
+
+.ribbon-2 {
+    bottom: 25%;
+    left: 10%;
+    animation-delay: 3s;
+}
+
+/* Paper Stacks */
+.paper-stack {
+    position: absolute;
+    width: 55px;
+    height: 8px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    animation: float 12s ease-in-out infinite;
+}
+
+.paper-stack::before {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 2px;
+    right: 2px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.paper-stack::after {
+    content: '';
+    position: absolute;
+    bottom: 16px;
+    left: 4px;
+    right: 4px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.paper-1 {
+    top: 35%;
+    left: 5%;
+    animation-delay: 0.5s;
+}
+
+.paper-2 {
+    bottom: 20%;
+    right: 8%;
+    animation-delay: 2.5s;
+}
+
+/* Floating Single Papers */
+.floating-paper {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    animation: floatRotate 15s ease-in-out infinite;
+}
+
+.floating-paper::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    height: 2px;
+    background: linear-gradient(90deg, #7e57c2 0%, transparent 100%);
+}
+
+.floating-paper::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    right: 12px;
+    height: 2px;
+    background: linear-gradient(90deg, #5e35b1 0%, transparent 100%);
+}
+
+.floating-paper-1 {
+    top: 45%;
+    right: 6%;
+    animation-delay: 0s;
+}
+
+.floating-paper-2 {
+    top: 55%;
+    left: 7%;
+    animation-delay: 3s;
+}
+
+.floating-paper-3 {
+    bottom: 35%;
+    right: 15%;
+    animation-delay: 5s;
+}
+
+/* Printer Icon */
+.printer-icon {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    animation: float 14s ease-in-out infinite;
+}
+
+.printer-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    height: 15px;
+    background: linear-gradient(135deg, #616161 0%, #424242 100%);
+    border-radius: 3px 3px 0 0;
+}
+
+.printer-icon::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    background: linear-gradient(135deg, #757575 0%, #616161 100%);
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.printer-1 {
+    top: 12%;
+    right: 5%;
+    animation-delay: 1s;
+}
+
+.printer-2 {
+    bottom: 12%;
+    left: 6%;
+    animation-delay: 3s;
+}
+
+/* Ink Drops */
+.ink-drop {
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: linear-gradient(135deg, #00acc1 0%, #0097a7 100%);
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    animation: float 9s ease-in-out infinite;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ink-drop::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+}
+
+.ink-1 {
+    top: 30%;
+    left: 12%;
+    background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
+    animation-delay: 0.5s;
+}
+
+.ink-2 {
+    top: 65%;
+    right: 10%;
+    background: linear-gradient(135deg, #ffc107 0%, #ffa000 100%);
+    animation-delay: 2s;
+}
+
+.ink-3 {
+    bottom: 40%;
+    left: 8%;
+    background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%);
+    animation-delay: 4s;
+}
+
+/* Stapler */
+.stapler {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    background: linear-gradient(135deg, #f44336 0%, #c62828 100%);
+    border-radius: 3px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    animation: float 11s ease-in-out infinite;
+}
+
+.stapler::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    right: 5px;
+    height: 5px;
+    background: linear-gradient(135deg, #e53935 0%, #d32f2f 100%);
+    border-radius: 2px;
+}
+
+.stapler-1 {
+    top: 50%;
+    right: 12%;
+    animation-delay: 1.5s;
+}
+
+/* Pen/Pencil */
+.pen {
+    position: absolute;
+    width: 60px;
+    height: 8px;
+    background: linear-gradient(90deg, #ff9800 0%, #f57c00 70%, #424242 70%, #212121 100%);
+    border-radius: 4px;
+    transform: rotate(-35deg);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    animation: floatRotate 13s ease-in-out infinite;
+}
+
+.pen::before {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid #212121;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.pen-1 {
+    top: 60%;
+    left: 15%;
+    animation-delay: 2s;
+}
+
+.pen-2 {
+    top: 20%;
+    left: 25%;
+    transform: rotate(25deg);
+    background: linear-gradient(90deg, #2196f3 0%, #1976d2 70%, #424242 70%, #212121 100%);
+    animation-delay: 4s;
+}
+
+/* Sticky Notes */
+.sticky-note {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(135deg, #ffeb3b 0%, #fdd835 100%);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    animation: float 10s ease-in-out infinite;
+    transform: rotate(-5deg);
+}
+
+.sticky-note::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    right: 8px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.sticky-note::after {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: 8px;
+    right: 12px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.sticky-1 {
+    top: 40%;
+    right: 20%;
+    animation-delay: 1s;
+}
+
+.sticky-2 {
+    bottom: 30%;
+    left: 20%;
+    background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+    transform: rotate(8deg);
+    animation-delay: 3s;
+}
+
+/* File Folder */
+.folder {
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    background: linear-gradient(135deg, #ff7043 0%, #f4511e 100%);
+    border-radius: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    animation: float 12s ease-in-out infinite;
+}
+
+.folder::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 25px;
+    height: 8px;
+    background: linear-gradient(135deg, #ff8a65 0%, #ff7043 100%);
+    border-radius: 3px 3px 0 0;
+}
+
+.folder-1 {
+    top: 18%;
+    left: 18%;
+    animation-delay: 2.5s;
+}
+
+/* Magnifying Glass */
+.magnifier {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    animation: float 15s ease-in-out infinite;
+}
+
+.magnifier::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    right: -8px;
+    width: 4px;
+    height: 18px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.magnifier-1 {
+    top: 70%;
+    right: 18%;
+    animation-delay: 3.5s;
+}
+
+/* Geometric Decorative Elements */
+/* Stars */
+.star {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    animation: twinkle 3s ease-in-out infinite;
+}
+
+.star::before,
+.star::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.star::before {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: translateY(-50%);
+}
+
+.star::after {
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+.star-1 {
+    top: 15%;
+    left: 30%;
+    animation-delay: 0s;
+}
+
+.star-2 {
+    top: 45%;
+    right: 25%;
+    animation-delay: 1s;
+}
+
+.star-3 {
+    bottom: 20%;
+    left: 35%;
+    animation-delay: 2s;
+}
+
+.star-4 {
+    top: 65%;
+    right: 30%;
+    animation-delay: 1.5s;
+}
+
+.star-5 {
+    top: 25%;
+    right: 35%;
+    animation-delay: 0.5s;
+}
+
+.star-6 {
+    bottom: 35%;
+    left: 28%;
+    animation-delay: 2.5s;
+}
+
+/* Plus Signs */
+.plus {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    animation: pulse 4s ease-in-out infinite;
+}
+
+.plus::before,
+.plus::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.plus::before {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: translateY(-50%);
+}
+
+.plus::after {
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+.plus-1 {
+    top: 22%;
+    left: 12%;
+    animation-delay: 0.3s;
+}
+
+.plus-2 {
+    top: 38%;
+    right: 8%;
+    animation-delay: 1.2s;
+}
+
+.plus-3 {
+    bottom: 28%;
+    right: 22%;
+    animation-delay: 2.1s;
+}
+
+.plus-4 {
+    top: 55%;
+    left: 22%;
+    animation-delay: 0.8s;
+}
+
+/* Diagonal Lines */
+.line {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.25);
+    animation: float 8s ease-in-out infinite;
+}
+
+.line-1 {
+    top: 18%;
+    right: 12%;
+    transform: rotate(45deg);
+    animation-delay: 0s;
+}
+
+.line-2 {
+    top: 48%;
+    left: 8%;
+    transform: rotate(-45deg);
+    animation-delay: 1.5s;
+}
+
+.line-3 {
+    bottom: 22%;
+    right: 28%;
+    transform: rotate(30deg);
+    animation-delay: 3s;
+}
+
+.line-4 {
+    top: 72%;
+    left: 25%;
+    transform: rotate(-30deg);
+    animation-delay: 2s;
+}
+
+/* Triangles */
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    animation: float 10s ease-in-out infinite;
+}
+
+.triangle-1 {
+    top: 28%;
+    right: 18%;
+    border-width: 0 8px 14px 8px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.2) transparent;
+    animation-delay: 1s;
+}
+
+.triangle-2 {
+    bottom: 42%;
+    left: 15%;
+    border-width: 14px 8px 0 8px;
+    border-color: rgba(255, 255, 255, 0.2) transparent transparent transparent;
+    animation-delay: 2.5s;
+}
+
+.triangle-3 {
+    top: 58%;
+    right: 32%;
+    border-width: 0 8px 14px 8px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.15) transparent;
+    animation-delay: 0.5s;
+}
+
+/* Small Circles - Additional */
+.small-circle {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    animation: pulse 5s ease-in-out infinite;
+}
+
+.small-circle-1 {
+    top: 32%;
+    left: 18%;
+    animation-delay: 0s;
+}
+
+.small-circle-2 {
+    top: 52%;
+    right: 15%;
+    animation-delay: 1.5s;
+}
+
+.small-circle-3 {
+    bottom: 38%;
+    right: 25%;
+    animation-delay: 2.5s;
+}
+
+.small-circle-4 {
+    top: 68%;
+    left: 32%;
+    animation-delay: 1s;
+}
+
+/* Zigzag Lines */
+.zigzag {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    animation: float 12s ease-in-out infinite;
+}
+
+.zigzag::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        rgba(255, 255, 255, 0.3) 25%, 
+        transparent 25%, 
+        transparent 50%, 
+        rgba(255, 255, 255, 0.3) 50%, 
+        rgba(255, 255, 255, 0.3) 75%, 
+        transparent 75%);
+    transform: skewY(-20deg);
+}
+
+.zigzag-1 {
+    top: 35%;
+    right: 10%;
+    animation-delay: 1.5s;
+}
+
+.zigzag-2 {
+    bottom: 32%;
+    left: 12%;
+    animation-delay: 3s;
+}
+
+/* Dashed Circles */
+.dashed-circle {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border: 2px dashed rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    animation: spin 20s linear infinite;
+}
+
+.dashed-circle-1 {
+    top: 42%;
+    left: 10%;
+}
+
+.dashed-circle-2 {
+    top: 62%;
+    right: 12%;
+}
+
+/* Abstract Curved Lines */
+.curve {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    animation: spin 15s linear infinite;
+}
+
+.curve-1 {
+    top: 20%;
+    left: 22%;
+    transform: rotate(45deg);
+}
+
+.curve-2 {
+    bottom: 25%;
+    right: 15%;
+    transform: rotate(-135deg);
+}
+
+/* Login Card */
+.login-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: 100%;
+    max-width: 380px;
+    animation: slideUp 0.6s ease-out;
+    position: relative;
+    z-index: 10;
+}
+
+/* Card Header - Purple Section */
+.card-header {
+    background: linear-gradient(135deg, #8e6fc7 0%, #7e57c2 100%);
+    padding: 40px 30px 35px;
+    text-align: center;
+    position: relative;
+}
+
+.port-logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 18px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgba(255, 255, 255, 0.4);
+}
+
+.port-logo i {
+    font-size: 40px;
+    color: white;
+}
+
+.welcome-circle {
+    margin: 0 auto 22px;
+    position: relative;
+}
+
+.welcome-circle::before {
+    display: none;
+}
+
+.welcome-circle h2 {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-circle p {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* Create Account Link */
+.create-account {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all 0.3s ease;
+    opacity: 1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.create-account:hover {
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+/* Card Body - White Section */
+.card-body {
+    padding: 35px 30px 40px;
+    background: #f8f9fa;
+}
+
+.card-body h3 {
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Error Message */
+.error-message {
+    background: #fee;
+    border-left: 4px solid #f44336;
+    color: #c62828;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.error-message i {
+    font-size: 18px;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input Icon Wrapper */
+.input-icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon-wrapper i {
+    position: absolute;
+    left: 18px;
+    color: white;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.input-icon-wrapper input {
+    width: 100%;
+    padding: 14px 18px 14px 48px;
+    border: none;
+    background: linear-gradient(135deg, #8e6fc7 0%, #7e57c2 100%);
+    color: white;
+    border-radius: 30px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(126, 87, 194, 0.2);
+}
+
+.input-icon-wrapper input::placeholder {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 400;
+}
+
+.input-icon-wrapper input:focus {
+    outline: none;
+    box-shadow: 0 5px 15px rgba(126, 87, 194, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Form Options */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0 24px;
+    font-size: 12px;
+}
+
+.remember-label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #555;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 400;
+}
+
+.remember-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #7e57c2;
+}
+
+.forgot-link {
+    color: #999;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.forgot-link:hover {
+    color: #7e57c2;
+}
+
+/* Login Button */
+.login-button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #8e6fc7 0%, #7e57c2 100%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(126, 87, 194, 0.3);
+}
+
+.login-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(126, 87, 194, 0.4);
+}
+
+.login-button:active {
+    transform: translateY(-1px);
+}
+
+/* Animations */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.4;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes floatRotate {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-15px) rotate(3deg);
+    }
+    50% {
+        transform: translateY(-5px) rotate(-2deg);
+    }
+    75% {
+        transform: translateY(-20px) rotate(2deg);
+    }
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.3);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .login-card {
+        max-width: 100%;
+    }
+    
+    .card-header {
+        padding: 35px 20px 25px;
+    }
+    
+    .card-body {
+        padding: 28px 25px 32px;
+    }
+    
+    .welcome-circle {
+        padding: 35px 18px;
+        max-width: 250px;
+    }
+    
+    .welcome-circle h2 {
+        font-size: 19px;
+    }
+    
+    .welcome-circle p {
+        font-size: 10px;
+    }
+}
